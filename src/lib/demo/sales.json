@@ -1,0 +1,309 @@
+{
+  "synthetic": true,
+  "description": "Entirely fictional demo fixtures, not measured Ozora or Toast data. Monthly check/returning-visit/rating fixtures are illustrative, separate from the 30-guest CRM sample.",
+  "restaurant": {
+    "slug": "paper-lantern-demo",
+    "name": "Paper Lantern Demo Izakaya",
+    "city": "Demo Harbor",
+    "state": "WA",
+    "owner": "Alex Demo",
+    "email": "owner@example.com"
+  },
+  "months": [
+    "2026-01",
+    "2026-02",
+    "2026-03"
+  ],
+  "monthlyContext": [
+    {
+      "checks": 980,
+      "returningVisits": 420,
+      "reviewStars": [
+        3,
+        4,
+        4,
+        5,
+        4,
+        4,
+        3,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "checks": 1080,
+      "returningVisits": 475,
+      "reviewStars": [
+        4,
+        4,
+        4,
+        5,
+        4,
+        5,
+        3,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "checks": 1220,
+      "returningVisits": 550,
+      "reviewStars": [
+        4,
+        5,
+        4,
+        5,
+        4,
+        5,
+        4,
+        5,
+        4,
+        4
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Lantern Garden Roll",
+      "category": "Signature Rolls",
+      "price": 18,
+      "quantities": [
+        180,
+        205,
+        240
+      ]
+    },
+    {
+      "name": "Citrus Coast Roll",
+      "category": "Signature Rolls",
+      "price": 20,
+      "quantities": [
+        155,
+        175,
+        210
+      ]
+    },
+    {
+      "name": "Smoked Tofu Roll",
+      "category": "Signature Rolls",
+      "price": 17,
+      "quantities": [
+        140,
+        155,
+        180
+      ]
+    },
+    {
+      "name": "Sesame Chicken Skewers",
+      "category": "Grilled Skewers",
+      "price": 9,
+      "quantities": [
+        310,
+        350,
+        405
+      ]
+    },
+    {
+      "name": "Miso Mushroom Skewers",
+      "category": "Grilled Skewers",
+      "price": 8,
+      "quantities": [
+        260,
+        290,
+        335
+      ]
+    },
+    {
+      "name": "Ginger Beef Skewers",
+      "category": "Grilled Skewers",
+      "price": 12,
+      "quantities": [
+        220,
+        245,
+        280
+      ]
+    },
+    {
+      "name": "Crispy Vegetable Dumplings",
+      "category": "Small Plates",
+      "price": 10,
+      "quantities": [
+        280,
+        305,
+        345
+      ]
+    },
+    {
+      "name": "Chili Lime Beans",
+      "category": "Small Plates",
+      "price": 7,
+      "quantities": [
+        250,
+        270,
+        300
+      ]
+    },
+    {
+      "name": "Soy Glazed Eggplant",
+      "category": "Small Plates",
+      "price": 11,
+      "quantities": [
+        180,
+        195,
+        220
+      ]
+    },
+    {
+      "name": "Market Salmon Nigiri",
+      "category": "Sushi Bar",
+      "price": 16,
+      "quantities": [
+        135,
+        150,
+        165
+      ]
+    },
+    {
+      "name": "Cucumber Sushi Set",
+      "category": "Sushi Bar",
+      "price": 14,
+      "quantities": [
+        120,
+        130,
+        145
+      ]
+    },
+    {
+      "name": "Chefs Seasonal Sashimi",
+      "category": "Sushi Bar",
+      "price": 28,
+      "quantities": [
+        100,
+        110,
+        125
+      ]
+    },
+    {
+      "name": "Ginger Rice Bowl",
+      "category": "Rice Bowls",
+      "price": 16,
+      "quantities": [
+        180,
+        200,
+        220
+      ]
+    },
+    {
+      "name": "Miso Tofu Bowl",
+      "category": "Rice Bowls",
+      "price": 15,
+      "quantities": [
+        165,
+        180,
+        200
+      ]
+    },
+    {
+      "name": "Teriyaki Chicken Bowl",
+      "category": "Rice Bowls",
+      "price": 18,
+      "quantities": [
+        210,
+        230,
+        260
+      ]
+    },
+    {
+      "name": "Roasted Tea Pudding",
+      "category": "Desserts",
+      "price": 8,
+      "quantities": [
+        90,
+        105,
+        130
+      ]
+    },
+    {
+      "name": "Citrus Sorbet",
+      "category": "Desserts",
+      "price": 7,
+      "quantities": [
+        85,
+        95,
+        120
+      ]
+    },
+    {
+      "name": "Sesame Shortbread",
+      "category": "Desserts",
+      "price": 6,
+      "quantities": [
+        75,
+        85,
+        105
+      ]
+    },
+    {
+      "name": "Lantern Citrus Spritz",
+      "category": "House Drinks",
+      "price": 12,
+      "quantities": [
+        190,
+        205,
+        235
+      ]
+    },
+    {
+      "name": "Ginger Tea Fizz",
+      "category": "House Drinks",
+      "price": 9,
+      "quantities": [
+        165,
+        180,
+        205
+      ]
+    },
+    {
+      "name": "Plum Soda",
+      "category": "House Drinks",
+      "price": 7,
+      "quantities": [
+        150,
+        165,
+        185
+      ]
+    },
+    {
+      "name": "House Lager",
+      "category": "Beer and Sake",
+      "price": 8,
+      "quantities": [
+        210,
+        225,
+        245
+      ]
+    },
+    {
+      "name": "Junmai Tasting Glass",
+      "category": "Beer and Sake",
+      "price": 13,
+      "quantities": [
+        130,
+        145,
+        165
+      ]
+    },
+    {
+      "name": "Alcohol Free Lager",
+      "category": "Beer and Sake",
+      "price": 7,
+      "quantities": [
+        110,
+        125,
+        140
+      ]
+    }
+  ]
+}
