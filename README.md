@@ -109,10 +109,11 @@ There is no conventional unit/integration/end-to-end test suite or GitHub Action
 
 ## Running Locally
 
-Use **Node.js 20 or later**, a dedicated Supabase demo project and an Anthropic API key.
+Use **Node.js 20 or later**. Run `npm ci` and `npm run dev`, then open `/demo` for **static demo mode**: synthetic sales metrics, priorities, reviews and insights work without credentials or a password. AI drafting and database-backed functionality require Anthropic and Supabase configuration; the following service setup is optional for the static dashboard.
 
 ```bash
 npm ci
+# Optional: configure services for AI drafting and database-backed functionality.
 cp .env.example .env.local
 ```
 
@@ -125,7 +126,7 @@ Apply these files in order through the Supabase SQL editor or CLI:
 3. `supabase/migrations/0003_menu_sales_seed.sql`
 4. `supabase/seed_demo.sql`
 
-Use only a dedicated fictional demo database. Set a strong `KAIRO_CHAT_PASSWORD` and enter it in the interface: the dashboard's snapshot-loading flow expects a password even though the API gate is optional.
+Use only a dedicated fictional demo database. If you configure `KAIRO_CHAT_PASSWORD`, enter it in the interface to access service-backed functionality. This optional shared-password gate is not full user authentication.
 
 ```bash
 npm run dev
